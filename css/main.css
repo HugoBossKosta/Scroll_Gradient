@@ -37,17 +37,17 @@ body, html {
     height: 100%;
     transform: rotate(15deg);
     overflow: visible;
-    top: 15vh;
+    top: 10vh;
 }
 
 .slider__wrapper {
     transition: var(--transition) !important;
     will-change: transform;
+    left: 35%;
 }
 
 .slider__item {
     max-height: 75vh;
-    left: 35%;
     overflow: hidden;
     cursor: pointer;
     transition: transform var(--transition), box-shadow var(--transition);
